@@ -5,7 +5,7 @@
 <h4 align="center">The browser built for AI agents 🦊</h4>
 
 <p align="center">                                      
-Camoufox is an open source browser purpose-built for AI agents — lightweight, undetectable, and optimized for LLM-driven automation.
+Camoufox is an open source browser built for AI agents. It is lightweight, mimics a human browser, and is optimized for LLM automation.
 </p>
 
 <p align="center">
@@ -21,8 +21,8 @@ Camoufox is an open source browser purpose-built for AI agents — lightweight, 
 > [!NOTE]
 > Browser development is active at [github.com/CloverLabsAI/camoufox](https://github.com/CloverLabsAI/camoufox). ([See activity](https://github.com/CloverLabsAI/camoufox/activity))<br>
 
-> [!NOTE] 
-> To make use of the alpha Camoufox releases, use the [`cloverlabs-camoufox`](https://pypi.org/project/cloverlabs-camoufox/) pip package. 
+> [!NOTE]
+> To make use of the alpha Camoufox releases, use the [`cloverlabs-camoufox`](https://pypi.org/project/cloverlabs-camoufox/) pip package.
 
 <hr width=50>
 
@@ -120,14 +120,15 @@ Camoufox is an open source browser purpose-built for AI agents — lightweight, 
 
 # Introduction
 
-Camoufox is a custom Firefox build engineered for AI agents — headless, undetectable, and optimized to run at scale. Stealth isn't the product; it's the foundation. The real value is giving AI agents a browser that just works: no bot walls, no fingerprint leaks, no wasted tokens parsing bloated DOM.
+Camoufox is a Firefox fork engineered for AI agents. It is headless, undetectable, and optimized to run at scale. With stealth features as the foundation, it gives your AI agent a browser that just works: no bot walls, no fingerprint leaks, no wasted tokens\* parsing bloated DOM.
 
 ## Highlights
 
 - **Built for AI agents** 🤖
   - Minimal, debloated Firefox — fast to launch, cheap to run
   - Drop-in Playwright compatibility via Python interface
-  - Token-efficient: clean DOM output, no CSS animations, no tracking noise
+  - Token-efficient: clean DOM output, no CSS animations, or tracking noise
+  - Invisible to anti-bot systems so you can run your agent cluster locally or in the cloud without being flagged
 
 - **Undetectable by design** 🎭
   - Page automation hidden from JavaScript inspection. See the [stealth page](https://camoufox.com/stealth) for more details.
