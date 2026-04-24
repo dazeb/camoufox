@@ -2,10 +2,10 @@
 
 <h1 align="center">Camoufox</h1>
 
-<h4 align="center">A stealthy, minimalistic, custom build of Firefox for web scraping 🦊</h4>
+<h4 align="center">The browser built for AI agents 🦊</h4>
 
 <p align="center">                                      
-Camoufox is an open source anti-detect browser for robust fingerprint injection & anti-bot evasion.
+Camoufox is an open source browser purpose-built for AI agents — lightweight, undetectable, and optimized for LLM-driven automation.
 </p>
 
 <p align="center">
@@ -120,12 +120,17 @@ Camoufox is an open source anti-detect browser for robust fingerprint injection 
 
 # Introduction
 
-Camoufox is a modern & effective open source solution for avoiding bot detection and intelligent fingerprint rotation.
+Camoufox is a custom Firefox build engineered for AI agents — headless, undetectable, and optimized to run at scale. Stealth isn't the product; it's the foundation. The real value is giving AI agents a browser that just works: no bot walls, no fingerprint leaks, no wasted tokens parsing bloated DOM.
 
 ## Highlights
 
-- **Invisible to anti-bot systems** 🎭
-  - Page agent is hidden from JavaScript inspection. See the [stealth page](https://camoufox.com/stealth) for more details.
+- **Built for AI agents** 🤖
+  - Minimal, debloated Firefox — fast to launch, cheap to run
+  - Drop-in Playwright compatibility via Python interface
+  - Token-efficient: clean DOM output, no CSS animations, no tracking noise
+
+- **Undetectable by design** 🎭
+  - Page automation hidden from JavaScript inspection. See the [stealth page](https://camoufox.com/stealth) for more details.
 
 * **Fingerprint injection & rotation (without JS injection!)**
   - All navigator properties (device, OS, hardware, browser, etc.) ✅
@@ -139,7 +144,7 @@ Camoufox is a modern & effective open source solution for avoiding bot detection
   - WebGL parameters, supported extensions, context attributes, & shader precision formats ✅
   - Font spoofing & anti-fingerprinting ✅
 
-* **Quality of life features**
+* **Optimized for automation**
   - Human-like mouse movement 🖱️
   - Blocks & circumvents ads 🛡️
   - No CSS animations 💨
@@ -331,7 +336,7 @@ However, this isn't perfect. It may still be detected with sophisticated enough 
 
 ## How Camoufox rotates identities
 
-In addition to hiding the automation library, your identity must be randomized in each instance as well to avoid rate limiting and detection. Rotating your IP address means nothing if it's obviously you each time. There are thousands of things that create a unique **fingerprint** of you. Right now, any website you visit can see you are using Chrome on Linux, running on NVIDIA GeForce RTX 4090.
+AI agents need to operate across many sessions without getting flagged or rate-limited. Rotating your IP address isn't enough — every browser session carries thousands of signals that create a unique **fingerprint**. A website can see your OS, GPU, screen resolution, fonts, timezone, and more. If those signals are inconsistent or unusual, you get blocked.
 
 ### Market Share Distribution
 
