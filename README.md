@@ -12,7 +12,9 @@ Camoufox is an open source browser built for AI agents. It is lightweight, mimic
   <a href="https://trendshift.io/repositories/12224" target="_blank">
     <img src="https://trendshift.io/api/badge/repositories/12224" alt="daijro%2Fcamoufox | Trendshift" width="250" height="55"/>
   </a><br>
-  <a href="https://pepy.tech/projects/camoufox"><img src="https://static.pepy.tech/personalized-badge/camoufox?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads"></a>
+  <a href="https://pepy.tech/projects/camoufox"><img src="https://static.pepy.tech/personalized-badge/camoufox?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="Total Downloads"</a>
+  <a href="https://pepy.tech/projects/camoufox"><img src="https://static.pepy.tech/personalized-badge/camoufox?period=monthly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads%2Fmonth" alt="Monthly Downloads"></a>
+    <a href="https://pepy.tech/projects/camoufox"><img src="https://static.pepy.tech/personalized-badge/camoufox?period=weekly&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads%2Fweek" alt="Weekly Downloads"></a>
 </div>
 
 ---
@@ -32,6 +34,7 @@ Camoufox is an open source browser built for AI agents. It is lightweight, mimic
 
 <details open>
 <summary>View</summary>
+<br>
 <table>
   <tr>
     <td width="25%" align="center" valign="middle">
@@ -65,7 +68,7 @@ Camoufox is an open source browser built for AI agents. It is lightweight, mimic
   </tr>
 </table>
 
-### Proxy Sponsors
+## Proxy providers
 
 Camoufox is intended to be used with rotating proxies (preferably residential IPs). Check out these providers:
 
@@ -175,6 +178,17 @@ Camoufox is intended to be used with rotating proxies (preferably residential IP
       • 🧪 <strong>Free 500MB trial</strong> for testing<br>
       • 💸 <strong>Special discount</strong> code for Camoufox users: <strong>PROXY90 - 10%</strong><br>
       Best for: Web scraping, automation, multi-accounting, and large-scale data extraction
+    </td>
+  </tr>     
+  <tr>
+    <td width="25%" align="center" valign="middle">
+      <a href="https://mangoproxy.com/?utm_source=github&utm_medium=partner&utm_campaign=daijro" target="_blank">
+        <img width="380" alt="mangoproxy" src="https://github.com/user-attachments/assets/c2cd3ddf-c940-4906-be1b-5505dcdb6e06"/>
+      </a>
+    </td>
+    <td valign="middle">
+      <a href="https://mangoproxy.com/?utm_source=github&utm_medium=partner&utm_campaign=daijro">MangoProxy</a> is a Residential, ISP, Mobile and Datacenter proxy service designed for professional tasks where stability, speed, and anonymity matter.<br>
+      Use code DAIJRO for 8% OFF ISP Static Proxies
     </td>
   </tr>
 </table>
